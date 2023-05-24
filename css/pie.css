@@ -1,0 +1,12 @@
+.pie {
+    background: linear-gradient(180deg, #ffffff 0%, #4284B4 100%);
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+.pie p{
+    font-size: 15px;
+    text-align: center;
+    padding: 1px;
+    color: rgb(240, 240, 240);
+}
