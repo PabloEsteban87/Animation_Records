@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form_Vista_HomePage</title>
+    <link rel="stylesheet" href="form_style.css">
+
 </head>
 <body>
     
@@ -19,23 +21,26 @@
 
             <div class="formulario">
 
-                <h1>Suscríbete a nuestra newsletter con una selección de los mejores artículos Disney</h1>
+                <h2>Suscríbete a nuestra newsletter con una selección de los mejores artículos Disney</h2>
                 
                 <br><br>
                 <label for="email">Correo electrónico *</label>
-                <br>
+                <br><br>
                 <input type="text" name="email" id="email">
                 
 
-                <p>Permisos de promoción</p>
+                <p class="promocion">Permisos de promoción</p>
                 <input type="checkbox" name="permiso" id="permiso">
                 <label for="permiso">Aceptas términos y condiciones</label>
 
-                <p>Puede darse de baja en cualquier momento haciendo clic en el enlace en el pie de página<br>
-                    de nuestros correos electrónicos. Para obtener información sobre nuestras prácticas de privacidad, <br> 
-                    visite nuestro sitio web.<br>
-                    *Requerido</p>
-
+                <div class="baja">
+                    <p>Puede darse de baja en cualquier momento haciendo clic  
+                    en el enlace en el pie de página de nuestros correos 
+                    electrónicos. Para obtener información sobre nuestras
+                    prácticas de privacidad, visite nuestro sitio web.</p>
+                    
+                    <p class="requerido">* Requerido</p>
+                </div>
                 
 
                 <input type="submit" value="Subscríbete!">
