@@ -1,0 +1,93 @@
+.galeria_de_productos{
+  width: 20px;
+  height: 20px;
+  margin-left: 150px;
+  display: flex;
+  margin: 50px;
+}
+.producto_principal{
+  width: 400px;
+  height: 400px;
+  margin-bottom: 50px;
+  margin-left: 250px;
+  display: flex;
+  margin-top: 200px;
+}
+
+
+.contenedor_camisetas{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin-left: 300px;
+  
+}
+
+.cami_gris{
+  width: 50px;
+  height: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+
+
+.sugerencias{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #4284B4;
+    margin-top: 100px;
+}
+.contenedor-imagenes {
+    display: flex; 
+    margin-left: 150px;
+    margin-top: 100px;
+  }
+  
+  .contenedor-imagenes img {
+    width: 184px; 
+    height: 239px; 
+    margin-left: 100px;
+    margin-right: 90px;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  h6{
+    text-align: right;
+    color: #4284B4;
+    margin-top: 50px;
+    margin-right: 300px;
+   
+  }
+  
+  
+.pie{
+    font-size: 15px;
+    text-align: center;
+    padding: 125px;
+    color: rgb(240, 240, 240);
+    background: linear-gradient(180deg, #ffffff 0%, #4284B4 100%);
+    width: 100%;
+    margin-top: 1px;
+}
+
+.privacidad{
+    text-align: left;
+    margin-left: 20px;
+}
+.cookies{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.contacto{
+    text-align: right;
+    margin-right: 300px;
+    margin-bottom: -30px;
+}
+.copy{
+   margin-bottom: -50px;
+   margin-right: 300px;
+}
