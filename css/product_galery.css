@@ -16,25 +16,15 @@
         
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 5fr);
-
-    justify-content: space-between; 
-
-    
-    
+       
 }
 
 div .grid {
 
-    box-sizing: border-box;
-    
      
-    border: 1px solid #000000;
+    border: none;
 
-    align-items: center;
-
-    justify-content: space-between; 
-
-  
+     
 }
 
 .pulpo {
@@ -44,14 +34,18 @@ div .grid {
 
     box-sizing: border-box;
     
-    max-height: 160px;
+          
+
+}
+
+.img1 {
+       
     max-width: 150px;
-
-    
-    border: 1px solid #000000;
-
+    max-height: 160px;
     align-items: center;
-
+    size: 25%;
+    padding: 0% 0% 5% 5%;
+    
 }
 
 .film {
@@ -61,16 +55,17 @@ div .grid {
 
     box-sizing: border-box;
     
-    max-height: 160px;
-    max-width: 150px;
-
-    
-    border: 1px solid #000000;
-
-    align-items: center;
-
+     
 }
 
+.img2 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 40%;
+
+    padding: 0% 5% 5% 5%;
+}
 .camiseta1 {
 
     grid-column: 3;
@@ -78,15 +73,16 @@ div .grid {
 
     box-sizing: border-box;
     
-    max-height: 160px;
-    max-width: 150px;
-
-    
-    border: 1px solid #000000;
-
-    align-items: center;
 }
 
+.img3 {
+
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 25%;
+    padding: 0% 5% 5% 5%;
+}
 .camiseta2 {
 
     grid-column: 4;
@@ -94,13 +90,15 @@ div .grid {
 
     box-sizing: border-box;
     
-    max-height: 160px;
+}
+
+.img4{
+
     max-width: 150px;
-
-    
-    border: 1px solid #000000;
-
+    max-height: 160px;
     align-items: center;
+    size: 15%;
+    padding: 0% 5% 5% 5%;
 }
 
 .gorra {
@@ -109,17 +107,18 @@ div .grid {
     grid-row: 1;
 
     box-sizing: border-box;
-    
-    max-height: 160px;
-    max-width: 150px;
-
-    
-    border: 1px solid #000000;
-
-    align-items: center;
-
+        
 }
 
+.img5 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 65%;
+
+    padding: 0% 0% 5% 5%;
+
+}
 .puzzle {
 
     grid-column: 1;
@@ -128,19 +127,34 @@ div .grid {
 
     box-sizing: border-box;
     
-    max-height: 160px;
+}
+
+.img6 {
+
     max-width: 150px;
-
-    
-    border: 1px solid #000000;
-
+    max-height: 160px;
     align-items: center;
+    size: 35%;
+
+    padding: 5% 5% 5% 5%;
 }
 
 .muñecas {
 
     grid-column: 2 ;
     grid-row:  2;
+
+    box-sizing: border-box;
+    
+}
+
+.img7 {
+
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 110%;
+    padding: 5% 5% 5% 5%;
 }
 
 .mochila {
@@ -148,46 +162,135 @@ div .grid {
     grid-column: 3;
     grid-row: 2;
 
+    box-sizing: border-box;
+    
+}
+
+.img8 {
+
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 35%;
+    padding: 5% 5% 5% 5%;
 }
 
 .bolsa_playa {
 
     grid-column: 4;
     grid-row: 2;
+
+    box-sizing: border-box;
+   
 }
 
+.img9 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 35%;
+    padding: 5% 5% 5% 5%;
+}
 .bañador {
 
     grid-column: 5;
     grid-row: 2;
+
+    box-sizing: border-box;
+    
+    
 }
 
+.img10{
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 35%;
+    padding: 5% 5% 5% 0%;
+}
 .disfraz {
 
     grid-column: 1;
     grid-row: 3;
+
+    box-sizing: border-box;
+    
+    
 }
 
+.img11{
+
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 25%;
+
+    padding: 5% 0% 0% 5%;
+}
 .caja_musical {
 
     grid-column: 2;
     grid-row: 3;
+
+    box-sizing: border-box;
+    
 }
 
+.img12 {
+
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 45%;
+    padding: 5% 5% 0% 5%;
+}
 .chaqueta {
 
     grid-column: 3;
     grid-row: 3;
+
+    box-sizing: border-box;
+    
 }
 
+.img13 {
+
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 35%;
+    padding: 5% 5% 0% 5%;
+}
 .sudadera {
 
     grid-column: 4;
     grid-row: 3 ;
+
+    box-sizing: border-box;
+    
 }
 
+.img14{
+
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 25%;
+    padding: 5% 5% 0% 5%;
+}
 .pijama {
 
     grid-column: 5;
     grid-row: 3;
+
+    box-sizing: border-box;
+    
+}
+
+.img15 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 25%;
+    padding: 5% 5% 0% 0%;
 }
