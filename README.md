@@ -24,6 +24,7 @@
   <li> CSS3 </li>
   <li> Visual Studio Code </li>
   <li> Jira</li>
+  <li> Javascript  </li>
   </ul>
 
 # Autores:
