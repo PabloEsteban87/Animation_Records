@@ -28,7 +28,9 @@
 # Autores:
 <ul>
   <li>Pablo Esteban https://github.com/PabloEsteban87  </li>
-  <li>Maria Fernandez https://github.com/Mariafernandezsantos  </li>
+  <li>Maria Fernandez</li>
+  <li>Maria Victoria</li>
+  <li>Antonio</li>
   </ul>
 
   
