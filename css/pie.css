@@ -1,12 +1,61 @@
 .pie {
     background: linear-gradient(180deg, #ffffff 0%, #4284B4 100%);
-    width: 100%;
     margin-top: 10px;
+    padding: 30px;
   }
   
 .pie p{
     font-size: 15px;
     text-align: center;
-    padding: 1px;
-    color: rgb(240, 240, 240);
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.privacidad{
+    float: left;
+    margin-right: 16px;
+
+}
+
+.cookies{
+    float:left;
+
+}
+
+.contacto{
+    float: right;
+}
+
+.contacto a{
+text-decoration: none;
+color: white;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.copy{
+  padding: 20px
+}
+
+@media only screen and (min-width: 150px) and (max-width: 425px) {
+
+    .privacidad{
+        display: block;
+        width: 100%;
+    
+    }
+    .cookies{
+        display: block;
+        width: 100%;
+    
+    }
+    .contacto{
+        display: block;
+        width: 100%;
+    
+    }
+
+    .pie{
+        padding: 52px;
+    }
 }

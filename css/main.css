@@ -1,53 +1,49 @@
 .banner_1 {
     width: 100%;
     height: 350px;
-    background: linear-gradient(180deg, #ffffff 0%, #4284B4 100%);
-    margin-top: 19px;
+    box-shadow: 10px 10px 5px 0px rgba(66, 132, 180, 1);
 }
 
-.banner_1 img{
+.banner_1 img {
     width: 100%;
     height: 100%;
+    aspect-ratio: auto;
 }
 
-.contenedor_categorias{
+.contenedor_categorias {
     width: 100%;
 }
-
-
 
 .categorias_arriba {
-   /*  display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 45vh 45vh;
-    margin-top: 90px;
-    justify-content: center;
-    gap: 10px; */
     margin-top: 20px;
     display: flex;
     width: 100%;
 }
 
-.categorias_abajo{
+.categorias_abajo {
     margin-top: 20px;
     display: flex;
     width: 100%;
 }
 
-
-.categoria1, .categoria2, .categoria3, .categoria4, .categoria5, .categoria6{
+.categoria1,
+.categoria2,
+.categoria3,
+.categoria4,
+.categoria5,
+.categoria6 {
     text-align: center;
     width: 35.2%;
-    height: 200px;
-    display: flex;
-    align-items: center;
+    height: 300px;
     margin: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(66, 132, 180, 1);
 }
 
-.categoria4, .categoria5, .categoria6{
+.categoria4,
+.categoria5,
+.categoria6 {
     margin-top: 10px;
 }
-
 
 .categoria1 {
     background-color: black;
@@ -73,36 +69,569 @@
     background-color: #CFE6B2;
 }
 
-.categoria1 h3{
-    color: yellow;
+.categoria1:hover,
+.categoria2:hover,
+.categoria3:hover,
+.categoria4:hover,
+.categoria5:hover,
+.categoria6:hover {
+    transform: scale(1.1);
 }
 
-.categoria2 h3{
+.categoria1 img,
+.categoria2 img,
+.categoria3 img,
+.categoria4 img,
+.categoria5 img,
+.categoria6 img {
+    height: 100%;
+    width: 100%;
+    aspect-ratio: auto;
+    object-fit: fill;
+}
+
+.formulario {
+    width: 100%;
+    background: linear-gradient(180deg, #4284B4 0%, rgba(255, 254, 254, 0.993) 100%);
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.h2_formulario {
+    padding: 19px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.email_1 {
+    padding: 19px;
+}
+
+.label_email {
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 50%;
+    border: black;
+    background-color: white;
+    height: 31px;
+
+}
+
+.permisos {
+    padding: 19px;
+}
+
+.baja {
+    padding: 19px;
+    width: 50%;
+    margin-left: 0px;
+    text-align: justify;
+}
+
+.promocion {
+    text-decoration: underline;
+
+}
+
+.requerido {
+    color: red
+}
+
+.suscribete {
+    text-align: right;
+    position: relative;
+    bottom: 100px;
+    right: 118px;
+}
+
+input[type="submit"] {
+    background: #FC0606;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    width: 140px;
+    height: 38px;
     color: white;
 }
 
-.categoria3 h3{
+input[type="submit"]:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+
+.producto_principal {
+
+    margin-bottom: 50px;
+    margin-top: 45px;
+}
+
+.producto_principal img {
+    width: 50vh;
+}
+
+
+.contenedor_camisetas {
+    width: 26%;
+    height: 100px;
+    margin-left: 0%;
+
+}
+
+.contenedor_camisetas img {
+    width: 30%;
+    display: inline-block;
+}
+
+.cami_gris {
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+.sugerencias {
+    font-size: 39px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #4284B4;
+}
+
+.contenedor-imagenes {
+    display: flex;  
+    margin-top: 80px;
+    width: 100%;
+}
+
+.contenedor-imagenes img {
+    max-height: 240px;
+    margin-top: 20px;
+}
+
+h6 {
+    text-align: right;
+    color: #4284B4;
+    margin-top: 50px;
+    margin-right: 300px;
+
+}
+
+.caja {
+    background-color: #4284B4;
+    width: 250px;
+    position: absolute;
+    right: 21%;
+    top: 300px;
+    border-radius: 10px;
+}
+
+.h2_float {
+    text-align: center;
     color: white;
 }
 
-.categoria4 h3{
+ul {
+    align-content: center
+}
+
+button {
     color: black;
+    height: 50px;
+    width: 250px;
+    text-align: justify;
+    border-radius: 10px 10px 10px 10px;
 }
 
-.categoria5 h3{
-    color: white;
-}
-
-.categoria6 h3{
-    color: black;
-}
-
-.categoria1 img, .categoria2 img, .categoria3 img, .categoria4 img, .categoria5 img, .categoria6 img{
+.banner_2 {
+    width: 100%;
     height: 200px;
-    width:100%;
-    object-fit: cover;
+}
 
-
+.banner_2 img {
+    width: 100%;
+    height: 100%;
 
 }
 
+.grid_pablo{
+
+}
+
+.grid_arriba {
+    width: 100%;
+    text-align: center;
+}
+
+.grid_arriba img {
+    display: inline-block;
+    width: 10%;
+    margin-left: 85px;
+    margin-top: 20px;
+}
+
+.grid_medio {
+    width: 100%;
+    text-align: center;
+}
+
+.grid_medio img {
+    display: inline-block;
+    width: 10%;
+    margin-left: 85px;
+    margin-top: 20px;
+}
+
+.grid_abajo {
+    width: 100%;
+    text-align: center;
+}
+
+.grid_abajo img {
+    display: inline-block;
+    width: 10%;
+    margin-left: 85px;
+    margin-top: 20px;
+}
+
+.novedades {
+    position: relative;
+    top: 58%;
+    padding-left: 101px;
+    color: white;
+    font-size: 41px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#icono_2{
+    width: 30px;
+    height: 30px;
+    float: right;
+    position: relative;
+    top: -40px;
+    margin-right: 20px;
+}
+
+.contenedor_atras{
+    text-align: right;
+}
+
+
+.enlace_atras{
+    color: rgba(66, 132, 180, 1);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+@media only screen and (min-width:426px) and (max-width: 767px) {
+    .banner_1 {
+        margin-top: 0px;
+        height: 200px;
+    }
+
+    .categoria1,
+    .categoria2,
+    .categoria3,
+    .categoria4,
+    .categoria5,
+    .categoria6 {
+        box-shadow: none;
+    }
+
+}
+
+@media only screen and (min-width: 150px) and (max-width: 425px) {
+    .categorias_arriba {
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+    }
+
+    .categorias_abajo {
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+    }
+
+    .categoria1,
+    .categoria2,
+    .categoria3,
+    .categoria4,
+    .categoria5,
+    .categoria6 {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        box-shadow: none;
+    }
+
+    .banner_1 {
+        height: 200px;
+        margin-top: 0px;
+
+    }
+
+    .h2_formulario {
+        text-align: center;
+    }
+
+    .email_1 {
+        text-align: center;
+    }
+
+    .permisos {
+        text-align: center;
+    }
+
+    .baja {
+        text-align: center;
+        width: auto;
+    }
+
+    .suscribete {
+        text-align: center;
+        position: static;
+
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+}
+
+/* Codigo maria */
+.product_gallery_principal {
+    background-color: none;
+}
+
+.grid {
+    display: grid;
+    height: 550px;
+    padding: 87px;
+    padding-top: 200px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 5fr);
+}
+
+.grid div {
+    border: none;
+}
+
+.pulpo {
+    grid-column: 1;
+    grid-row: 1;
+    box-sizing: border-box;
+}
+
+.img1 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 25%;
+    padding: 0% 0% 5% 5%;
+}
+
+.film {
+    grid-column: 2;
+    grid-row: 1;
+    box-sizing: border-box;
+}
+
+.img2 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 40%;
+    padding: 0% 5% 5% 5%;
+}
+
+.camiseta1 {
+    grid-column: 3;
+    grid-row: 1;
+    box-sizing: border-box;
+
+}
+
+.img3 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 25%;
+    padding: 0% 5% 5% 5%;
+}
+
+.camiseta2 {
+    grid-column: 4;
+    grid-row: 1;
+    box-sizing: border-box;
+}
+
+.img4 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 15%;
+    padding: 0% 5% 5% 5%;
+}
+
+.gorra {
+    grid-column: 5;
+    grid-row: 1;
+    box-sizing: border-box;
+}
+
+.img5 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 65%;
+    padding: 0% 0% 5% 5%;
+}
+
+.puzzle {
+    grid-column: 1;
+    grid-row: 2;
+    box-sizing: border-box;
+}
+
+.img6 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 35%;
+    padding: 5% 5% 5% 5%;
+}
+
+.muñecas {
+    grid-column: 2;
+    grid-row: 2;
+    box-sizing: border-box;
+}
+
+.img7 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 110%;
+    padding: 5% 5% 5% 5%;
+}
+
+.mochila {
+    grid-column: 3;
+    grid-row: 2;
+    box-sizing: border-box;
+}
+
+.img8 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 35%;
+    padding: 5% 5% 5% 5%;
+}
+
+.bolsa_playa {
+    grid-column: 4;
+    grid-row: 2;
+    box-sizing: border-box;
+}
+
+.img9 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 35%;
+    padding: 5% 5% 5% 5%;
+}
+
+.bañador {
+    grid-column: 5;
+    grid-row: 2;
+    box-sizing: border-box;
+}
+
+.img10 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 35%;
+    padding: 5% 5% 5% 0%;
+}
+
+.disfraz {
+    grid-column: 1;
+    grid-row: 3;
+    box-sizing: border-box;
+}
+
+.img11 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 25%;
+    padding: 5% 0% 0% 5%;
+}
+
+.caja_musical {
+    grid-column: 2;
+    grid-row: 3;
+    box-sizing: border-box;
+}
+
+.img12 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 45%;
+    padding: 5% 5% 0% 5%;
+}
+
+.chaqueta {
+    grid-column: 3;
+    grid-row: 3;
+    box-sizing: border-box;
+}
+
+.img13 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 35%;
+    padding: 5% 5% 0% 5%;
+}
+
+.sudadera {
+    grid-column: 4;
+    grid-row: 3;
+    box-sizing: border-box;
+}
+
+.img14 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 25%;
+    padding: 5% 5% 0% 5%;
+}
+
+.pijama {
+    grid-column: 5;
+    grid-row: 3;
+    box-sizing: border-box;
+}
+
+.img15 {
+    max-width: 150px;
+    max-height: 160px;
+    align-items: center;
+    size: 25%;
+    padding: 5% 5% 0% 0%;
+}

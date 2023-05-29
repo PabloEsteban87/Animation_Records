@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <title>Disney Shopping</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/app.js"></script>
 </head>
 
 <body>
@@ -29,40 +30,69 @@
         </header>
         <main>
             <section>
-                <article class="banner_1"><img alt="banner" class="imagen_banner" src="imagenes/pagina_principal/banner.jpeg"></article>
-                    <article class="categorias_arriba">
-                        <div class="categoria1">
-                            <img src="imagenes/pagina_principal/star wars.jpeg"/>
-                        </div>
-                        <div class="categoria2">
-                            <img src="imagenes/pagina_principal/mickey.jpeg"/>
-                        </div>
-                        <div class="categoria3">
-                            <img src="imagenes/pagina_principal/vaiana.jpeg"/>
-                        </div><br>
+                <article class="banner_1"><img alt="banner" class="imagen_banner"
+                        src="imagenes/pagina_principal/banner.jpeg"></article>
+                <article class="categorias_arriba">
+                    <div class="categoria1">
+                        <img src="imagenes/pagina_principal/Star_Wars_Logo.svg.png" />
+                    </div>
+                    <div class="categoria2">
+                        <img src="imagenes/pagina_principal/mickey.png" />
+                    </div>
+                    <div class="categoria3">
+                        <img src="imagenes/pagina_principal/vaiana-mar.jpg" />
+                    </div>
 
-                    </article>
-                    <article class="categorias_abajo">
-                        <div class="categoria4">
-                            <img src="imagenes/pagina_principal/x men.jpeg"/>
-                        </div>
-                        <div class="categoria5">
-                            <img src="imagenes/pagina_principal/la sirenita.jpeg"/>
-                        </div>
-                        <div class="categoria6">
-                            <img src="imagenes/pagina_principal/toy.jpeg"/>
-                        </div>
-                    </article>
+                </article>
+                <article class="categorias_abajo">
+                    <div class="categoria4">
+                        <img src="imagenes/pagina_principal/x men.jpeg" />
+                    </div>
+                    <div class="categoria5">
+                        <a href="product_gallery_maria.html"><img src="imagenes/pagina_principal/la_sirenita_3.jpg" /></a>
+                    </div>
+                    <div class="categoria6">
+                        <img src="imagenes/pagina_principal/toy_story.png" />
+                    </div>
+                </article>
+
+                <article class="formulario">
+                    <div class="h2_formulario">
+                        <h2>Suscríbete a nuestra newsletter con una selección de los mejores artículos Disney</h2>
+                    </div>
+                    <div class="email_1">
+                        <label class="label_email" for="email">Correo electrónico *</label>
+                        <br><br>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="permisos">
+                        <p class="promocion">Permisos de promoción</p><br>
+                        <input type="checkbox" name="permiso" id="permiso">
+                        <label for="permiso">Aceptas términos y condiciones</label>
+                    </div>
+                    <div class="baja">
+                        <p>Puede darse de baja en cualquier momento haciendo clic
+                            en el enlace en el pie de página de nuestros correos
+                            electrónicos. Para obtener información sobre nuestras
+                            prácticas de privacidad, visite nuestro sitio web.</p>
+                        <br>
+                        <p class="requerido">* Requerido</p>
+                    </div>
+                    <div class="suscribete">
+
+                        <input type="submit" value="Subscríbete!">
+                    </div>
+                </article>
             </section>
         </main>
+
+        <footer class="pie">
+            <p class="copy"> &copy; Copyright 2023 Autores: Maria fernandez - Antonio - Maria Victoria - Pablo</p>
+            <p class="contacto"><a href="mailto:hege@example.com">Contacto</a></p>
+            <p class="privacidad">Politica de Privacidad</p>
+            <p class="cookies">Aviso de Cookies</p>
+        </footer>
     </div>
-    <footer class="pie">
-        <p>Equipo ANTOJO</p>
-           <p>Autores: Maria fernandez - Antonio - Maria Victoria - Pablo</p>
-           <p><a href="mailto:hege@example.com">footer@example.com</a></p>
-           <p>Copyright &copy; 2023</p>   
-       </footer>
-       
 </body>
 
 </html>
