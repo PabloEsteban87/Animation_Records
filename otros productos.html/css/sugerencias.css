@@ -46,9 +46,8 @@
   }
   
   .contenedor-imagenes img {
-    width: 184px; 
-    height: 239px; 
-    margin-left: 100px;
+    max-height: 240px; 
+    margin-left: 90px;
     margin-right: 90px;
     align-items: flex-start;
     margin-top: 20px;
