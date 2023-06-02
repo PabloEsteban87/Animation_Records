@@ -8,3 +8,10 @@ body{
     height: 900px;
 }
 
+ul{
+    list-style: none;
+}
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}

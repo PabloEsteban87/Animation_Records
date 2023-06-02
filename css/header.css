@@ -1,65 +1,58 @@
-*{
+* {
     margin: 0 auto;
     font-family: poppins;
 }
 
-
-.fondo{
+.fondo {
     margin-left: 62px;
     margin-right: 61px;
 }
 
-
-header{
+header {
     width: 100%;
-    background: linear-gradient(180deg, #4284B4 0%, rgba(255, 254, 254, 0.993) 100%);
-    height: 24vh;
+    background: linear-gradient(180deg, #4284B4 0%, rgba(66, 132, 180, 0.32) 98.44%);
+    height: 220px;
 }
 
-.header_1{
+.header_1 {
     display: inline-flex;
     align-items: center;
     width: 100%;
-
 }
 
-.logo{
+.logo {
     padding: 20px;
 }
 
-
-.logo_disney{
+.logo_disney {
     width: 85%;
 }
 
-.texto_1{
+.texto_1 {
     width: 50%;
     color: white;
     font-size: 4.5vw;
-    font-family: 'Courier New', Courier, monospace;
-    
 }
 
-.busqueda{
-width: 37%;
+.busqueda {
+    width: 37%;
 }
 
-.cuadro_busqueda{
+.cuadro_busqueda {
     width: 77%;
     padding: 12px;
     margin-left: 5px;
 }
 
-.imagen_buscar{
+.imagen_buscar {
     width: 30px;
     height: 30px;
     position: absolute;
     margin-left: -27px;
     margin-top: 9px;
-    
 }
 
-.menu{
+.menu {
     width: 100%;
     display: inline-flex;
     justify-content: center;
@@ -67,93 +60,98 @@ width: 37%;
 
 }
 
-.menu ul{
-list-style: none;
-width: 100%;
+.menu ul {
+    list-style: none;
+    width: 100%;
     text-align: center;
     padding-left: 0px;
 }
 
-.menu ul li{
+.menu ul li {
     width: 22%;
     font-size: 2.4vw;
     display: inline-block;
     height: 5%;
+    color: white;
 }
 
-.menu ul li:hover{
-    color: #4284B4 ;
+.menu ul li:hover {
+    color: #4284B4;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 @media only screen and (max-width: 425px) {
-    .cuadro_busqueda{ 
-      display: none;
+    .cuadro_busqueda {
+        display: none;
     }
-    .imagen_buscar{
+
+    .imagen_buscar {
         float: right;
         position: unset;
     }
-    .texto_1{
+
+    .texto_1 {
         width: 100%;
     }
 
-    .busqueda{
+    .busqueda {
         width: 18%;
     }
 
-    .logo{
+    .logo {
         padding: 10px;
     }
 
-    .fondo{
+    .fondo {
         margin-left: 0px;
         margin-right: 0px;
     }
 
-    header{
+    header {
         height: 16vh;
     }
-  }
+}
 
-  @media only screen and (min-width: 1500px) {
-    .menu ul li{
+@media only screen and (min-width: 1500px) {
+    .menu ul li {
         font-size: 2vw;
     }
 
-  }
+}
 
-  @media only screen and (min-width:768px) and (max-width: 1200px) {
-    .texto_1{
+@media only screen and (min-width:768px) and (max-width: 1200px) {
+    .texto_1 {
         font-size: 3.5vw;
     }
 
-  }
+}
 
-  @media only screen and (min-width:426px) and (max-width: 767px) {
-    .texto_1{
+@media only screen and (min-width:426px) and (max-width: 767px) {
+    .texto_1 {
         margin-left: 8vw;
         font-size: 3.9vw;
     }
-    .cuadro_busqueda{ 
-        display: none;
-      }
-      .imagen_buscar{
-          float: right;
-          position: unset;
-      }
 
-      .fondo{
+    .cuadro_busqueda {
+        display: none;
+    }
+
+    .imagen_buscar {
+        float: right;
+        position: unset;
+    }
+
+    .fondo {
         margin-left: 0px;
         margin-right: 0px;
     }
 
 
-  }
+}
 
-
-  @media only screen and (min-width:426px) and (max-width: 560px) {
-    .texto_1{
+@media only screen and (min-width:426px) and (max-width: 560px) {
+    .texto_1 {
         margin-left: 3vw;
         font-size: 3.6vw;
     }
